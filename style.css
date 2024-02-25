@@ -1,0 +1,167 @@
+*{
+    padding: 0;
+    box-sizing: 0;
+    margin: 0;
+}
+
+body{
+    background-color: black;
+    overflow-x: hidden;
+}
+.cabecalho{
+    background-color: black;
+    border: none;
+    height: 50px;
+    align-items: center;
+}
+
+.img_bel{
+    padding: 7px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 40px;
+    width: 97%;
+}
+
+.conteiner{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    width: 1360px;
+    margin-left: 30px;
+}
+
+.davi{
+    margin-top: 10px;
+    height: 700px;
+    margin-left: 55px;
+}
+
+.claudio{
+    margin-left: 100px;
+    height: 700px;
+    align-items: center;
+}
+
+.outbeco{
+    position: absolute;
+    top: 1100px;
+    left: 120px;
+    margin-top: 20px;
+    height: 700px;
+}
+
+.casal{
+    margin-top: 0px;
+    margin-left: 250px;
+    height: 700px;
+    align-items: center;
+}
+
+.by_bel{
+    position: absolute;
+    top: 1700px;
+    left: 0px;
+    margin-top: 10px;
+    height: 1000px;
+}
+
+
+.praia{
+    position: absolute;
+    margin-top: 10px;
+    top: 2000px;
+    height: 700px;
+    margin-left: 50px;
+}
+
+.drone{
+    position: absolute;
+    top: 2500px;
+    margin-top: 10px;
+    height: 400px;
+    margin: 50px;
+    margin-left: 100px;
+}
+
+.casamento{
+    top: 2750px;
+    margin-top: 600px;
+    height: 700px;
+    margin-left: 60px;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: rgba(255, 68, 0, 0.632);
+}
+
+::-webkit-scrollbar-corner{
+    background-color: black;
+}
+
+::-webkit-scrollbar{
+    width: 7px;
+    background-color: black;
+}
+
+@media screen and (max-width: 768px) {
+    .conteiner{
+        display: block;
+    }
+
+    .imagens{
+    }
+
+    .davi{
+        height: 200px;
+    }
+
+    .claudio{
+        height: 200px;
+        margin-left: 70px;
+    }
+
+    .outbeco{
+        position: absolute;
+        height: 200px;
+        margin-left: -20px;
+        top: 370px;
+    }
+    
+    .casal{
+        height: 200px;
+        margin-left: 110px;
+        padding: 24px 4px
+    }
+
+    .by_bel{
+        position: absolute;
+        height: 300px;
+        margin-left: 50px;
+        top: 550px;
+    }
+
+    .praia{
+        position: absolute;
+        top: 670px;
+        height: 200px;
+        margin-left: 45px;
+        padding: 24px 4px
+    }
+
+    .drone{
+        position: absolute;
+        top: 800px;
+        height: 125px;
+        margin-left: 40px;
+        padding: 24px 4px
+    }
+
+    .casamento{
+        margin-top: 250px;
+        height: 200px;
+        margin-left: 49px;
+    }
+
+}
