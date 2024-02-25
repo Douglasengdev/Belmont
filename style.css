@@ -61,24 +61,25 @@ body{
 
 .by_bel{
     position: absolute;
-    top: 1700px;
+    top: 1650px;
     left: 0px;
     margin-top: 10px;
     height: 1000px;
+
 }
 
 
 .praia{
     position: absolute;
     margin-top: 10px;
-    top: 2000px;
+    top: 2100px;
     height: 700px;
     margin-left: 50px;
 }
 
 .drone{
     position: absolute;
-    top: 2500px;
+    top: 2600px;
     margin-top: 10px;
     height: 400px;
     margin: 50px;
@@ -86,8 +87,7 @@ body{
 }
 
 .casamento{
-    top: 2750px;
-    margin-top: 600px;
+    margin-top: 700px;
     height: 700px;
     margin-left: 60px;
 }
@@ -110,7 +110,15 @@ body{
         display: block;
     }
 
-    .imagens{
+    .img_bel{
+        padding: 2px;
+        height: 20px;
+        align-items: center;
+    }
+
+    .cabecalho{
+        height: 20px;
+        width: 560px;
     }
 
     .davi{
@@ -126,7 +134,7 @@ body{
         position: absolute;
         height: 200px;
         margin-left: -20px;
-        top: 370px;
+        top: 340px;
     }
     
     .casal{
@@ -139,12 +147,12 @@ body{
         position: absolute;
         height: 300px;
         margin-left: 50px;
-        top: 550px;
+        top: 520px;
     }
 
     .praia{
         position: absolute;
-        top: 670px;
+        top: 630px;
         height: 200px;
         margin-left: 45px;
         padding: 24px 4px
@@ -152,14 +160,14 @@ body{
 
     .drone{
         position: absolute;
-        top: 800px;
+        top: 750px;
         height: 125px;
         margin-left: 40px;
         padding: 24px 4px
     }
 
     .casamento{
-        margin-top: 250px;
+        margin-top: 220px;
         height: 200px;
         margin-left: 49px;
     }
