@@ -1,0 +1,234 @@
+*{
+    padding: 0;
+    box-sizing: 0;
+    margin: 0;
+}
+
+body{
+    background-color: black;
+    overflow-x: hidden;
+}
+.cabecalho{
+    background-color: black;
+    border: none;
+    height: 50px;
+    align-items: center;
+}
+
+.img_bel{
+    padding: 7px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 40px;
+    width: 97%;
+}
+
+.conteiner{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    width: 1360px;
+    margin-left: 30px;
+}
+
+.davi{
+    margin-top: 10px;
+    height: 700px;
+    margin-left: 55px;
+}
+
+.claudio{
+    margin-left: 100px;
+    height: 700px;
+    align-items: center;
+}
+
+.outbeco{
+    position: absolute;
+    top: 1100px;
+    left: 120px;
+    margin-top: 20px;
+    height: 700px;
+}
+
+.casal{
+    margin-top: 0px;
+    margin-left: 250px;
+    height: 700px;
+    align-items: center;
+}
+
+.by_bel{
+    position: absolute;
+    top: 1650px;
+    left: 0px;
+    margin-top: 10px;
+    height: 1000px;
+
+}
+
+
+.praia{
+    position: absolute;
+    margin-top: 10px;
+    top: 2100px;
+    height: 700px;
+    margin-left: 50px;
+}
+
+.drone{
+    position: absolute;
+    top: 2600px;
+    margin-top: 10px;
+    height: 400px;
+    margin: 50px;
+    margin-left: 100px;
+}
+
+.casamento{
+    margin-top: 700px;
+    height: 700px;
+    margin-left: 60px;
+}
+
+.tela_edicao{
+    position: absolute;
+    top: 2900px;
+    height: 1800px;
+    margin-left: 60px;
+}
+
+.casal_marrom{
+    position: absolute;
+    top: 3900px;
+    height: 700px;
+    margin-left: 60px;
+}
+
+.tela_final{
+    position: absolute;
+    top: 4500px;
+    height: 700px;
+    margin-left: 60px;
+}
+
+
+
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: rgba(255, 68, 0, 0.632);
+}
+
+::-webkit-scrollbar-corner{
+    background-color: black;
+}
+
+::-webkit-scrollbar{
+    width: 7px;
+    background-color: black;
+}
+
+@media screen and (max-width: 2768px) {
+
+    *{
+        padding: 0;
+        box-sizing: 0;
+        margin: 0;
+    }    
+    .conteiner{
+        display: flex;
+        align-items: center;
+        display: block;
+        width: auto;
+        height: auto;
+
+        margin-left: -9px;
+    }
+
+    .img_bel{
+        padding: 2px;
+        height: 40px;
+        
+    }
+
+    .cabecalho{
+        height: 40px;
+        background-color: black;
+    }
+
+    .davi{
+        height: 215px;
+        margin-left: 13px;
+    }
+
+    .claudio{
+        height: 250px;
+        margin-left: -10px;
+    }
+
+    .outbeco{
+        position: absolute;
+        height: 240px;
+        margin-left: -130px;
+        top: 400px;
+    }
+    
+    .casal{
+        height: 290px;
+        margin-left: 10px;
+        padding: 24px 4px
+    }
+
+    .by_bel{
+        margin-left: -90px;
+        height: 400px;
+        top: 630px;
+    }
+
+    .praia{
+        position: absolute;
+        top: 800px;
+        height: 200px;
+        margin-left: 10px;
+        padding: 24px 4px
+    }
+
+    .drone{
+        position: absolute;
+        top: 910px;
+        height: 135px;
+        margin-left: 0px;
+        padding: 24px 4px
+    }
+
+    .casamento{
+        margin-top: 190px;
+        height: 235px;
+        margin-left: -10px;
+    }
+
+    .tela_edicao{
+        height: 600px;
+        position: absolute;
+        top: 1100px;
+        margin-left: -0px;
+    }
+
+    .casal_marrom{
+        position: absolute;
+        height: 220px;
+        top: 1500px;
+        margin-left: 10px;
+    }
+
+    .tela_final{
+        position: absolute;
+        height: 220px;
+        top: 1650px;
+        margin-left: 10px;
+        padding: 24px 0px;
+    }
+
+}
